@@ -140,7 +140,7 @@ ggsave("BS_HOF.png", width = 6, height = 7, dpi = 300)
 
 
 
-
+## Animated gif 
 
 df$Date <- mdy(df$Date)
 
