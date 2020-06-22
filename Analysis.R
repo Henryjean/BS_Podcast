@@ -33,7 +33,7 @@ df %>%
   labs(x = "", 
        y = "Total Episode Appearances", 
        title = "Most Frequent Guests On The Bill Simmons Podcast", 
-       subtitle = "By episode appearances (Oct. 1, 2015 - June 5, 2020)") +
+       subtitle = "By episode appearances (Oct. 1, 2015 - June 22, 2020)") +
   theme(plot.title.position = 'plot', 
         plot.title = element_text(face = 'bold', size = 14), 
         axis.text.y = element_text(margin = margin(0, -15, 0, 0))) +
@@ -62,7 +62,7 @@ df %>%
   labs(x = "", 
        y = "Number of guests", 
        title = "Most Frequent Guests On The Bill Simmons Podcast", 
-       subtitle = "By race/gender of all guests (Oct. 1, 2015 - June 5, 2020)") +
+       subtitle = "By race/gender of all guests (Oct. 1, 2015 - June 22, 2020)") +
   theme(plot.title.position = 'plot', 
         plot.title = element_text(face = 'bold', size = 14), 
         axis.text.y = element_text(margin = margin(0, -15, 0, 0))) +
@@ -95,7 +95,7 @@ df %>%
        fill = "",
        y = "Total Episode Appearances", 
        title = "Most Frequent Guests On The Bill Simmons Podcast", 
-       subtitle = "By episode appearances (Oct. 1, 2015 - June 5, 2020)") +
+       subtitle = "By episode appearances (Oct. 1, 2015 - June 22, 2020)") +
   theme(plot.title.position = 'plot', 
         plot.title = element_text(face = 'bold'), 
         legend.position = 'top',
